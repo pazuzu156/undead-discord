@@ -1,3 +1,9 @@
+---
+name: Bug Report
+about: Create a report to help us improve
+
+---
+
 # Undead Discord Issue
 
 ## Issue
