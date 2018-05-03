@@ -1,0 +1,32 @@
+// This file defines how the guild list should look
+
+.guilds-wrapper {
+    background-color: $bg-color !important;
+}
+
+.guild-inner,
+.guilds-add,
+.guild.selected:before,
+.guild.unread:before,
+.badge,
+.unread-mentions-bar {
+    border-radius: unset !important;
+}
+
+.guild.selected:before,
+.badge,
+.unread-mentions-bar {
+    background-color: $secondary-highlight-color !important;
+}
+
+.guild.unread:before {
+    background-color: $highlight-color !important;
+}
+
+.unread-mentions-indicator-top > .unread-mentions-bar {
+    margin-top: -6px;
+}
+
+.unread-mentions-indicator-bottom > .unread-mentions-bar {
+    margin-top: 6px;
+}

@@ -1,0 +1,29 @@
+// This stylesheet is for user profile popups
+// (the ones that show up when clicking a user's name on the sidebar or in chat)
+
+.body-3iLsc4,
+.footer-1fjuF6,
+.note-3kmerW textarea:focus {
+    background-color: $bg-color !important;
+}
+
+.headerNormal-T_seeN,
+.quickMessage-1yeL4E {
+    background-color: $secondary-bg-color !important;
+}
+
+.status-oxiHuE,
+.image-33JSyf,
+.userPopout-3XzG_A,
+.avatarHint-1qgaV3,
+.role-2irmRk,
+.roleCircle-3xAZ1j {
+    border-radius: unset !important;
+}
+
+.mask-3OgeRz,
+.maskProfile-1ObLFT,
+.maskProfile-1ObLFT {
+    -webkit-mask: none !important;
+    mask: none !important;
+}

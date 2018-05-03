@@ -1,0 +1,11 @@
+// This file defines how the title bar should look for Windows
+
+// This is for the new title bar on Windows, adding a border under it
+.titleBar-AC4pGV {
+    border-bottom: 1px solid $darkest-bg-color;
+}
+
+// Sets arrow on group count max to match it's box's background color
+.theme-dark .max-mvI_jT:before {
+    border-bottom-color: $bg-color;
+}

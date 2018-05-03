@@ -1,0 +1,23 @@
+{
+    "name": "undead-discord",
+    "version": "1.0.0",
+    "description": "A dark and simple Discord theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pazuzu156/undead-discord"
+    },
+    "readme": "README.md",
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "grunt": "^1.0.2",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-watch": "^1.0.1",
+        "grunt-sass": "^2.1.0"
+    },
+    "scripts": {
+        "start": "node_modules/.bin/grunt run",
+        "build": "node_modules/.bin/grunt",
+        "clean": "node_modules/.bin/grunt clean"
+    }
+}
