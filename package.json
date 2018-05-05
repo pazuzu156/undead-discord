@@ -14,7 +14,11 @@
             "url": "https://github.com/chrisduerr"
         }
     ],
-    "keywords": ["discord", "theme", "css"],
+    "keywords": [
+        "discord",
+        "theme",
+        "css"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/pazuzu156/undead-discord"
