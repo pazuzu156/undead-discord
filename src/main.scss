@@ -24,7 +24,12 @@
 
 // Chat box and memers list
 @import 'chat/members';
+@import 'chat/messages';
+
+// Popup window pieces
+@import 'popups/emoji';
+@import 'popups/key_combos';
 
 // Misc. styles
-@import 'titlebar';
 @import 'settings';
+@import 'misc';
