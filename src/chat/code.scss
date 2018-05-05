@@ -1,0 +1,32 @@
+// This file defines how code blocks should look
+
+.markup > pre,
+.markup > pre > code {
+    background-color: $secondary-bg-color !important;
+    border-radius: unset !important;
+    border: none !important;
+}
+
+.hljs-tag {
+    color: $hljs-tag !important;
+}
+
+.hljs-string {
+    color: $hljs-string !important;
+}
+
+.hljs-type, .hljs-title, .hljs-section, .hljs-attribute, .hljs-quote, .hljs-built_in, .hljs-builtin-name {
+    color: $hljs-variable !important;
+}
+
+.hljs-number, .hljs-symbol, .hljs-bullet {
+    color: $hljs-number !important;
+}
+
+.hljs-keyword {
+    color: $hljs-keyword !important;
+}
+
+.hljs-comment,.hljs-code {
+    color: $hljs-comment !important;
+}

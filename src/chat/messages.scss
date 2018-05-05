@@ -1,3 +1,5 @@
+// This file defines how messages should look
+
 .messages-wrapper,
 .content > .flex-spacer,
 .content > .flex-spacer > form,
@@ -8,9 +10,15 @@
 .new-messages-bar,
 .title-3qD0b-,
 .channelTextArea-rNsIhG > .inner-zqa7da,
-.divider > span,
-.divider > div {
+.divider > div,
+.embedPill-1Zntps,
+.embedInner-1-fpTo {
     background-color: $secondary-bg-color !important;
+}
+
+.divider::before,
+.divider > span {
+    background-color: transparent !important;
 }
 
 .message-text > .markup {
@@ -23,6 +31,21 @@
 }
 
 .channelTextArea-rNsIhG > .inner-zqa7da,
-.divider > span {
+.divider > span,
+.embed-IeVjo6,
+.avatar-large {
     border-radius: unset !important;
+}
+
+.embedPill-1Zntps {
+    display: none;
+}
+
+.embedInner-1-fpTo {
+    border: none !important;
+}
+
+.mention {
+    color: $secondary-highlight-color !important;
+    background-color: darken($highlight-color, 18%) !important;
 }

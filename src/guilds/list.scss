@@ -17,10 +17,24 @@
     border-radius: unset !important;
 }
 
-.guild.selected:before,
+.guild.selected:before {
+    background-color: $secondary-highlight-color !important;
+}
+
 .badge,
 .unread-mentions-bar {
-    background-color: $secondary-highlight-color !important;
+    background-color: $highlight-color !important;
+}
+
+.icon-2aINcz,
+.unread-mentions-bar,
+.badge {
+    color: $bg-color !important;
+    font-weight: 500;
+}
+
+.badge {
+    box-shadow: none !important;
 }
 
 .guild.unread:before {

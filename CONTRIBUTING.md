@@ -39,6 +39,7 @@ This is the general set of colors the Undead themes should be based on:
 | Primary Foreground Color   | #9e9e9e | ![](https://u.teknik.io/reIwl.png) |
 | Secondary Foreground Color | #616161 | ![](https://u.teknik.io/dHYcH.png) |
 | Highlight Color            | #752a2a | ![](https://u.teknik.io/3jrH3.png) |
+| Secondary Highlight Color  | #ac4142 | ![](https://u.teknik.io/DhStq.png) |
 
 Because of the intensity of the highlight color, it should only be used for backgrounds, not for text.
 For colored text like code syntax the following [base16](https://github.com/chriskempson/base16) colors should be used:
