@@ -34,11 +34,12 @@
         "grunt-contrib-clean": "^1.1.0",
         "grunt-contrib-cssmin": "^2.2.1",
         "grunt-contrib-watch": "^1.0.1",
+        "grunt-file-append": "0.0.7",
         "grunt-sass": "^2.1.0"
     },
     "scripts": {
-        "start": "node_modules/.bin/grunt run",
-        "build": "node_modules/.bin/grunt",
+        "start": "node_modules/.bin/grunt",
+        "build": "node_modules/.bin/grunt build",
         "clean": "node_modules/.bin/grunt clean"
     }
 }

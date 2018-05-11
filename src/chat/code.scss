@@ -15,11 +15,19 @@
     color: $hljs-string !important;
 }
 
-.hljs-type, .hljs-title, .hljs-section, .hljs-attribute, .hljs-quote, .hljs-built_in, .hljs-builtin-name {
+.hljs-type,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-quote,
+.hljs-built_in,
+.hljs-builtin-name {
     color: $hljs-variable !important;
 }
 
-.hljs-number, .hljs-symbol, .hljs-bullet {
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet {
     color: $hljs-number !important;
 }
 
@@ -27,6 +35,11 @@
     color: $hljs-keyword !important;
 }
 
-.hljs-comment,.hljs-code {
+.hljs-comment,
+.hljs-code {
     color: $hljs-comment !important;
+}
+
+.hljs-meta {
+    color: $hljs-meta !important;
 }

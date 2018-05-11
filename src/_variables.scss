@@ -10,9 +10,11 @@ $highlight-color:           #752a2a;
 $secondary-highlight-color: #ac4142;
 
 // The following hljs colors are for syntax highlighting
-$hljs-tag:                  #62c8f3;
-$hljs-string:               #a2fca2;
-$hljs-variable:             #ffffaa;
-$hljs-number:               #d36363;
-$hljs-keyword:              #fcc28c;
+// Follows the base16 colors defined in CONTRIBUTING.md
+$hljs-tag:                  #6a9fb5;
+$hljs-string:               #90a959;
+$hljs-variable:             #75b5aa;
+$hljs-number:               #ac4142;
+$hljs-keyword:              #f4bf75;
 $hljs-comment:              #78877d;
+$hljs-meta:                 #aa759f;
